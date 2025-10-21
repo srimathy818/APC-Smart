@@ -2,7 +2,7 @@
 
 export async function generateAbsenteeMessage(name, course) {
   try {
-    const response = await fetch("https://appsail-50034992284.development.catalystappsail.in/api/generate-message", {
+    const response = await fetch("https://apc-smart.vercel.app/api/generate-message", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
